@@ -1,0 +1,738 @@
+{
+    "content": {
+        "data": [
+            {
+                "avatar": "$iwHRKaUKAAvSAAHmQQKjanBnAwYE0QH3BdEB9wa8HlOIrrVSuILd9ucOivkP_F8xNzgyNDAwZDVhZgfSAKTYWQgACaJpbQ",
+                "accountId": 10803289,
+                "accountName": "df10012234900",
+                "password": null,
+                "code": "GE_5e577805c64c43b0bf7617a429c2133f",
+                "name": "周耀",
+                "jobLevel": {
+                    "code": "ZHI_JI_QI_TA",
+                    "name": "其他"
+                },
+                "identityCardNo": null,
+                "budgetedPost": {
+                    "code": "BIAN_ZHI_SHI_YE_BIAN_CHA_E",
+                    "name": "差额拨款事业编"
+                },
+                "remarks": null,
+                "cellPhoneNo": null,
+                "areaCode": "86",
+                "govEmpCellPhoneShortNo": null,
+                "gender": {
+                    "code": "1",
+                    "name": "男性"
+                },
+                "birthDate": null,
+                "homeAddress": null,
+                "politicalStatus": {
+                    "code": "",
+                    "name": null
+                },
+                "status": "A",
+                "accountStatus": 0,
+                "jobs": [
+                    {
+                        "key": null,
+                        "employeeCode": "GE_5e577805c64c43b0bf7617a429c2133f",
+                        "organizationCode": "GO_contact1000490349158603983427600",
+                        "mainJob": false,
+                        "posUnit": {
+                            "code": "GO_ed297e0d43bf47b8b9babec6d40f5386",
+                            "name": "县市区领导小组"
+                        },
+                        "posUnitPathLine": [
+                            "浙政钉",
+                            "专属通讯录",
+                            "疫情防控",
+                            "宁波市领导小组",
+                            "县市区领导小组",
+                            "奉化区领导小组",
+                            "医疗救治组"
+                        ],
+                        "posInnerInstitution": {
+                            "code": "GO_contact1000490349158603983427600",
+                            "name": "医疗救治组",
+                            "pathLineList": [
+                                "县市区领导小组",
+                                "奉化区领导小组",
+                                "医疗救治组"
+                            ]
+                        },
+                        "posJob": "医政与中医科科长",
+                        "posEmail": null,
+                        "posAddress": "奉化区茗山路15号",
+                        "posEmployeeRole": {
+                            "code": "REN_YUAN_JU_SE_DAI_WAN_SHAN",
+                            "name": "待完善"
+                        },
+                        "posJobRank": {
+                            "code": null,
+                            "name": null
+                        },
+                        "status": "A",
+                        "orderInOrganization": 1,
+                        "govEmpPosPhoneNo": "0574-88517866",
+                        "govEmpPosFaxNo": null,
+                        "govJobAttributes": {
+                            "code": "2",
+                            "name": "兼职"
+                        },
+                        "visibilityIndicator": {
+                            "code": "SHENG_JI_YI_BAN_GONG_ZUO_REN_YUAN",
+                            "name": "省级一般工作人员"
+                        },
+                        "authority": null,
+                        "p_csrf": null,
+                        "extProperties": [],
+                        "pathLineList": null
+                    },
+                    {
+                        "key": null,
+                        "employeeCode": "GE_5e577805c64c43b0bf7617a429c2133f",
+                        "organizationCode": "GO_9ac847a80d34451ea4c772f5b0922533",
+                        "mainJob": true,
+                        "posUnit": {
+                            "code": "GO_dc99a95c95e340b0be7d3e319b70cf3b",
+                            "name": "区卫生健康局"
+                        },
+                        "posUnitPathLine": [
+                            "浙政钉",
+                            "地（市）",
+                            "宁波市",
+                            "县（市、区）",
+                            "奉化区",
+                            "区政府",
+                            "区卫生健康局",
+                            "医政与中医科"
+                        ],
+                        "posInnerInstitution": {
+                            "code": "GO_9ac847a80d34451ea4c772f5b0922533",
+                            "name": "医政与中医科",
+                            "pathLineList": [
+                                "区卫生健康局",
+                                "医政与中医科"
+                            ]
+                        },
+                        "posJob": "医政与中医科科长",
+                        "posEmail": null,
+                        "posAddress": "奉化区茗山路15号",
+                        "posEmployeeRole": {
+                            "code": "REN_YUAN_JU_SE_GAO_JI_YONG_HU",
+                            "name": "单位中层正职领导"
+                        },
+                        "posJobRank": {
+                            "code": "",
+                            "name": null
+                        },
+                        "status": "A",
+                        "orderInOrganization": 1,
+                        "govEmpPosPhoneNo": "0574-88517866",
+                        "govEmpPosFaxNo": null,
+                        "govJobAttributes": {
+                            "code": "1",
+                            "name": "主职"
+                        },
+                        "visibilityIndicator": {
+                            "code": "XIAN_JI_DAN_WEI_BU_MEN_ZHENG_ZHI",
+                            "name": "县级单位部门正职"
+                        },
+                        "authority": null,
+                        "p_csrf": null,
+                        "extProperties": [
+                            {
+                                "code": "office",
+                                "name": "办公室",
+                                "value": "",
+                                "propertyType": "String",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_zhiwei_1",
+                                "name": "职位",
+                                "value": "",
+                                "propertyType": "String",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_fenjihao_1",
+                                "name": "分机号",
+                                "value": "",
+                                "propertyType": "Number",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_dianxinxuniwang_1",
+                                "name": "电信虚拟网",
+                                "value": "",
+                                "propertyType": "Number",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_dianxinshoujihao_1",
+                                "name": "电信手机号",
+                                "value": "",
+                                "propertyType": "Number",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_gangwei_1",
+                                "name": "岗位",
+                                "value": "",
+                                "propertyType": "String",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_xuniwang_1",
+                                "name": "虚拟网",
+                                "value": "",
+                                "propertyType": "Number",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_ef767d498",
+                                "name": "BJ短号",
+                                "value": "",
+                                "propertyType": "Number",
+                                "choiceType": null
+                            },
+                            {
+                                "code": "ext_EMPLOYEEPOSITION_d548ed26b",
+                                "name": "BJ号码",
+                                "value": "",
+                                "propertyType": "String",
+                                "choiceType": null
+                            }
+                        ],
+                        "pathLineList": null
+                    }
+                ],
+                "tagList": null,
+                "employeePositionLines": null,
+                "direct": true,
+                "sendActiveSms": null,
+                "activeLevel": 1,
+                "choose": null,
+                "canRestore": true,
+                "aliEmailStatus": null,
+                "checkStatus": "WAN_SHAN",
+                "extProperties": [],
+                "isAdmin": null
+            },
+            {
+                "avatar": "$iwHRKaUKAAvSAAjiowKjanBnAwYE0QLuBdEC7wawUVt4LvyHICOGOceNVK5XiwcACAAJomlt",
+                "accountId": 40620535,
+                "accountName": "df16036266200",
+                "password": null,
+                "code": "GE_beb3fdcd979146aa854ed06e2ad4d55e",
+                "name": "周静亚",
+                "jobLevel": {
+                    "code": "ZHI_JI_QI_TA",
+                    "name": "其他"
+                },
+                "identityCardNo": null,
+                "budgetedPost": {
+                    "code": "BIAN_ZHI_SHI_YE_BIAN_CHA_E",
+                    "name": "差额拨款事业编"
+                },
+                "remarks": null,
+                "cellPhoneNo": null,
+                "areaCode": "86",
+                "govEmpCellPhoneShortNo": null,
+                "gender": {
+                    "code": "2",
+                    "name": "女性"
+                },
+                "birthDate": null,
+                "homeAddress": null,
+                "politicalStatus": {
+                    "code": "",
+                    "name": null
+                },
+                "status": "A",
+                "accountStatus": 0,
+                "jobs": [
+                    {
+                        "key": null,
+                        "employeeCode": "GE_beb3fdcd979146aa854ed06e2ad4d55e",
+                        "organizationCode": "GO_9ac847a80d34451ea4c772f5b0922533",
+                        "mainJob": true,
+                        "posUnit": {
+                            "code": "GO_dc99a95c95e340b0be7d3e319b70cf3b",
+                            "name": "区卫生健康局"
+                        },
+                        "posUnitPathLine": [
+                            "浙政钉",
+                            "地（市）",
+                            "宁波市",
+                            "县（市、区）",
+                            "奉化区",
+                            "区政府",
+                            "区卫生健康局",
+                            "医政与中医科"
+                        ],
+                        "posInnerInstitution": {
+                            "code": "GO_9ac847a80d34451ea4c772f5b0922533",
+                            "name": "医政与中医科",
+                            "pathLineList": [
+                                "区卫生健康局",
+                                "医政与中医科"
+                            ]
+                        },
+                        "posJob": "医政与中医科",
+                        "posEmail": null,
+                        "posAddress": "奉化区茗山路15号",
+                        "posEmployeeRole": {
+                            "code": "REN_YUAN_JU_SE_PU_TONG_YONG_HU",
+                            "name": "普通工作人员"
+                        },
+                        "posJobRank": {
+                            "code": "",
+                            "name": null
+                        },
+                        "status": "A",
+                        "orderInOrganization": 4,
+                        "govEmpPosPhoneNo": "0574-88979581",
+                        "govEmpPosFaxNo": null,
+                        "govJobAttributes": {
+                            "code": "1",
+                            "name": "主职"
+                        },
+                        "visibilityIndicator": {
+                            "code": "XIAN_JI_YI_BAN_GONG_ZUO_REN_YUAN",
+                            "name": "县级一般工作人员"
+                        },
+                        "authority": null,
+                        "p_csrf": null,
+                        "extProperties": [],
+                        "pathLineList": null
+                    }
+                ],
+                "tagList": null,
+                "employeePositionLines": null,
+                "direct": true,
+                "sendActiveSms": null,
+                "activeLevel": 1,
+                "choose": null,
+                "canRestore": true,
+                "aliEmailStatus": null,
+                "checkStatus": "WAN_SHAN",
+                "extProperties": [],
+                "isAdmin": null
+            },
+            {
+                "avatar": "$iwHRKaUKAAvSAAF-xQKjanBnAwYE0QLuBdEC7ga8B5FX9TypVhP7xSserks5oV8xNzdiODQ5ZTdmMAfSAmvXyQgACaJpbQ",
+                "accountId": 40622025,
+                "accountName": "df73863058448",
+                "password": null,
+                "code": "GE_fb3592af63394227a9de72f3fa9d9273",
+                "name": "周军",
+                "jobLevel": {
+                    "code": "ZHI_JI_QI_TA",
+                    "name": "其他"
+                },
+                "identityCardNo": null,
+                "budgetedPost": {
+                    "code": "BIAN_ZHI_SHI_YE_BIAN_QUAN_E",
+                    "name": "全额拨款事业编"
+                },
+                "remarks": null,
+                "cellPhoneNo": null,
+                "areaCode": "86",
+                "govEmpCellPhoneShortNo": null,
+                "gender": {
+                    "code": "1",
+                    "name": "男性"
+                },
+                "birthDate": null,
+                "homeAddress": null,
+                "politicalStatus": {
+                    "code": "",
+                    "name": null
+                },
+                "status": "A",
+                "accountStatus": 0,
+                "jobs": [
+                    {
+                        "key": null,
+                        "employeeCode": "GE_fb3592af63394227a9de72f3fa9d9273",
+                        "organizationCode": "GO_9ac847a80d34451ea4c772f5b0922533",
+                        "mainJob": true,
+                        "posUnit": {
+                            "code": "GO_dc99a95c95e340b0be7d3e319b70cf3b",
+                            "name": "区卫生健康局"
+                        },
+                        "posUnitPathLine": [
+                            "浙政钉",
+                            "地（市）",
+                            "宁波市",
+                            "县（市、区）",
+                            "奉化区",
+                            "区政府",
+                            "区卫生健康局",
+                            "医政与中医科"
+                        ],
+                        "posInnerInstitution": {
+                            "code": "GO_9ac847a80d34451ea4c772f5b0922533",
+                            "name": "医政与中医科",
+                            "pathLineList": [
+                                "区卫生健康局",
+                                "医政与中医科"
+                            ]
+                        },
+                        "posJob": "副院长",
+                        "posEmail": null,
+                        "posAddress": "奉化区茗山路15号",
+                        "posEmployeeRole": {
+                            "code": "REN_YUAN_JU_SE_PU_TONG_YONG_HU",
+                            "name": "普通工作人员"
+                        },
+                        "posJobRank": {
+                            "code": "",
+                            "name": null
+                        },
+                        "status": "A",
+                        "orderInOrganization": 5,
+                        "govEmpPosPhoneNo": "0574-88517866",
+                        "govEmpPosFaxNo": null,
+                        "govJobAttributes": {
+                            "code": "1",
+                            "name": "主职"
+                        },
+                        "visibilityIndicator": {
+                            "code": "XIAN_JI_YI_BAN_GONG_ZUO_REN_YUAN",
+                            "name": "县级一般工作人员"
+                        },
+                        "authority": null,
+                        "p_csrf": null,
+                        "extProperties": [],
+                        "pathLineList": null
+                    }
+                ],
+                "tagList": null,
+                "employeePositionLines": null,
+                "direct": true,
+                "sendActiveSms": null,
+                "activeLevel": 1,
+                "choose": null,
+                "canRestore": true,
+                "aliEmailStatus": null,
+                "checkStatus": "WAN_SHAN",
+                "extProperties": [],
+                "isAdmin": null
+            },
+            {
+                "avatar": "$iwHRKaUKAAvSAAIVXwKjanBnAwYE0QQaBdEEGgawMSfkmorMRlC_165xT40_iQcACAAJomlt",
+                "accountId": 40623110,
+                "accountName": "df17793174399",
+                "password": null,
+                "code": "GE_51e2ce8df0db42efb7f53caacafb7363",
+                "name": "孙宁辉",
+                "jobLevel": {
+                    "code": "ZHI_JI_QI_TA",
+                    "name": "其他"
+                },
+                "identityCardNo": null,
+                "budgetedPost": {
+                    "code": "BIAN_ZHI_SHI_YE_BIAN_QUAN_E",
+                    "name": "全额拨款事业编"
+                },
+                "remarks": null,
+                "cellPhoneNo": null,
+                "areaCode": "86",
+                "govEmpCellPhoneShortNo": null,
+                "gender": {
+                    "code": "1",
+                    "name": "男性"
+                },
+                "birthDate": null,
+                "homeAddress": null,
+                "politicalStatus": {
+                    "code": "",
+                    "name": null
+                },
+                "status": "A",
+                "accountStatus": 0,
+                "jobs": [
+                    {
+                        "key": null,
+                        "employeeCode": "GE_51e2ce8df0db42efb7f53caacafb7363",
+                        "organizationCode": "GO_9ac847a80d34451ea4c772f5b0922533",
+                        "mainJob": true,
+                        "posUnit": {
+                            "code": "GO_dc99a95c95e340b0be7d3e319b70cf3b",
+                            "name": "区卫生健康局"
+                        },
+                        "posUnitPathLine": [
+                            "浙政钉",
+                            "地（市）",
+                            "宁波市",
+                            "县（市、区）",
+                            "奉化区",
+                            "区政府",
+                            "区卫生健康局",
+                            "医政与中医科"
+                        ],
+                        "posInnerInstitution": {
+                            "code": "GO_9ac847a80d34451ea4c772f5b0922533",
+                            "name": "医政与中医科",
+                            "pathLineList": [
+                                "区卫生健康局",
+                                "医政与中医科"
+                            ]
+                        },
+                        "posJob": "科员",
+                        "posEmail": null,
+                        "posAddress": "奉化区茗山路15号",
+                        "posEmployeeRole": {
+                            "code": "REN_YUAN_JU_SE_PU_TONG_YONG_HU",
+                            "name": "普通工作人员"
+                        },
+                        "posJobRank": {
+                            "code": "",
+                            "name": null
+                        },
+                        "status": "A",
+                        "orderInOrganization": 6,
+                        "govEmpPosPhoneNo": "0574-88518085",
+                        "govEmpPosFaxNo": null,
+                        "govJobAttributes": {
+                            "code": "1",
+                            "name": "主职"
+                        },
+                        "visibilityIndicator": {
+                            "code": "XIAN_JI_YI_BAN_GONG_ZUO_REN_YUAN",
+                            "name": "县级一般工作人员"
+                        },
+                        "authority": null,
+                        "p_csrf": null,
+                        "extProperties": [],
+                        "pathLineList": null
+                    }
+                ],
+                "tagList": null,
+                "employeePositionLines": null,
+                "direct": true,
+                "sendActiveSms": null,
+                "activeLevel": 1,
+                "choose": null,
+                "canRestore": true,
+                "aliEmailStatus": null,
+                "checkStatus": "WAN_SHAN",
+                "extProperties": [],
+                "isAdmin": null
+            },
+            {
+                "avatar": "$iwHRKaUKAAvSAALETAKjanBnAwYE0QQeBdEEHgawgErkGtepaYcQU54PqlzsggcACAAJomlt",
+                "accountId": 40624166,
+                "accountName": "df11842798366",
+                "password": null,
+                "code": "GE_5fb270137179436c96b87fbc14bcacdb",
+                "name": "董灏",
+                "jobLevel": {
+                    "code": "ZHI_JI_QI_TA",
+                    "name": "其他"
+                },
+                "identityCardNo": null,
+                "budgetedPost": {
+                    "code": "BIAN_ZHI_SHI_YE_BIAN_QUAN_E",
+                    "name": "全额拨款事业编"
+                },
+                "remarks": null,
+                "cellPhoneNo": null,
+                "areaCode": "86",
+                "govEmpCellPhoneShortNo": null,
+                "gender": {
+                    "code": "1",
+                    "name": "男性"
+                },
+                "birthDate": null,
+                "homeAddress": null,
+                "politicalStatus": {
+                    "code": "",
+                    "name": null
+                },
+                "status": "A",
+                "accountStatus": 0,
+                "jobs": [
+                    {
+                        "key": null,
+                        "employeeCode": "GE_5fb270137179436c96b87fbc14bcacdb",
+                        "organizationCode": "GO_9ac847a80d34451ea4c772f5b0922533",
+                        "mainJob": true,
+                        "posUnit": {
+                            "code": "GO_dc99a95c95e340b0be7d3e319b70cf3b",
+                            "name": "区卫生健康局"
+                        },
+                        "posUnitPathLine": [
+                            "浙政钉",
+                            "地（市）",
+                            "宁波市",
+                            "县（市、区）",
+                            "奉化区",
+                            "区政府",
+                            "区卫生健康局",
+                            "医政与中医科"
+                        ],
+                        "posInnerInstitution": {
+                            "code": "GO_9ac847a80d34451ea4c772f5b0922533",
+                            "name": "医政与中医科",
+                            "pathLineList": [
+                                "区卫生健康局",
+                                "医政与中医科"
+                            ]
+                        },
+                        "posJob": "医政科",
+                        "posEmail": null,
+                        "posAddress": "奉化区茗山路15号",
+                        "posEmployeeRole": {
+                            "code": "REN_YUAN_JU_SE_PU_TONG_YONG_HU",
+                            "name": "普通工作人员"
+                        },
+                        "posJobRank": {
+                            "code": "",
+                            "name": null
+                        },
+                        "status": "A",
+                        "orderInOrganization": 7,
+                        "govEmpPosPhoneNo": "0574-88908761",
+                        "govEmpPosFaxNo": null,
+                        "govJobAttributes": {
+                            "code": "1",
+                            "name": "主职"
+                        },
+                        "visibilityIndicator": {
+                            "code": "XIAN_JI_YI_BAN_GONG_ZUO_REN_YUAN",
+                            "name": "县级一般工作人员"
+                        },
+                        "authority": null,
+                        "p_csrf": null,
+                        "extProperties": [],
+                        "pathLineList": null
+                    }
+                ],
+                "tagList": null,
+                "employeePositionLines": null,
+                "direct": true,
+                "sendActiveSms": null,
+                "activeLevel": 1,
+                "choose": null,
+                "canRestore": true,
+                "aliEmailStatus": null,
+                "checkStatus": "WAN_SHAN",
+                "extProperties": [],
+                "isAdmin": null
+            },
+            {
+                "avatar": "$iwHRKaUKAAvSAAHFCAKjanBnAwYE0QQaBdEEGgawCpyiCymdk_bR5o-xu66XOQcACAAJoTA",
+                "accountId": 40625257,
+                "accountName": "df43061268668",
+                "password": null,
+                "code": "GE_2ee12065cd484685b426466f295a2cf5",
+                "name": "陈祖争",
+                "jobLevel": {
+                    "code": "ZHI_JI_QI_TA",
+                    "name": "其他"
+                },
+                "identityCardNo": null,
+                "budgetedPost": {
+                    "code": "BIAN_ZHI_SHI_YE_BIAN_CHA_E",
+                    "name": "差额拨款事业编"
+                },
+                "remarks": null,
+                "cellPhoneNo": null,
+                "areaCode": "86",
+                "govEmpCellPhoneShortNo": null,
+                "gender": {
+                    "code": "1",
+                    "name": "男性"
+                },
+                "birthDate": null,
+                "homeAddress": null,
+                "politicalStatus": {
+                    "code": "",
+                    "name": null
+                },
+                "status": "A",
+                "accountStatus": 0,
+                "jobs": [
+                    {
+                        "key": null,
+                        "employeeCode": "GE_2ee12065cd484685b426466f295a2cf5",
+                        "organizationCode": "GO_9ac847a80d34451ea4c772f5b0922533",
+                        "mainJob": true,
+                        "posUnit": {
+                            "code": "GO_dc99a95c95e340b0be7d3e319b70cf3b",
+                            "name": "区卫生健康局"
+                        },
+                        "posUnitPathLine": [
+                            "浙政钉",
+                            "地（市）",
+                            "宁波市",
+                            "县（市、区）",
+                            "奉化区",
+                            "区政府",
+                            "区卫生健康局",
+                            "医政与中医科"
+                        ],
+                        "posInnerInstitution": {
+                            "code": "GO_9ac847a80d34451ea4c772f5b0922533",
+                            "name": "医政与中医科",
+                            "pathLineList": [
+                                "区卫生健康局",
+                                "医政与中医科"
+                            ]
+                        },
+                        "posJob": "医政科",
+                        "posEmail": null,
+                        "posAddress": "奉化区茗山路15号",
+                        "posEmployeeRole": {
+                            "code": "REN_YUAN_JU_SE_PU_TONG_YONG_HU",
+                            "name": "普通工作人员"
+                        },
+                        "posJobRank": {
+                            "code": "",
+                            "name": null
+                        },
+                        "status": "A",
+                        "orderInOrganization": 8,
+                        "govEmpPosPhoneNo": "88503011",
+                        "govEmpPosFaxNo": null,
+                        "govJobAttributes": {
+                            "code": "1",
+                            "name": "主职"
+                        },
+                        "visibilityIndicator": {
+                            "code": "XIAN_JI_YI_BAN_GONG_ZUO_REN_YUAN",
+                            "name": "县级一般工作人员"
+                        },
+                        "authority": null,
+                        "p_csrf": null,
+                        "extProperties": [],
+                        "pathLineList": null
+                    }
+                ],
+                "tagList": null,
+                "employeePositionLines": null,
+                "direct": true,
+                "sendActiveSms": null,
+                "activeLevel": 1,
+                "choose": null,
+                "canRestore": true,
+                "aliEmailStatus": null,
+                "checkStatus": "WAN_SHAN",
+                "extProperties": [],
+                "isAdmin": null
+            }
+        ],
+        "currentPage": 1,
+        "pageSize": 10,
+        "totalCount": 6
+    },
+    "success": true,
+    "errorCode": 0,
+    "errorMsg": null,
+    "errorLevel": null
+}
