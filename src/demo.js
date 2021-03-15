@@ -72,23 +72,25 @@ if (typeof allLeaf !== 'undefined') {
 
 
 // all managers
-var tmpAllNodes = [...allNodes];
-var manager_result = []
-while (tmpAllNodes.length) {
-    // 50 at at time
-    console.log("node size", tmpAllNodes.length);
-    const batch = (
-        await Promise.all(
-            tmpAllNodes.splice(0, 50).map(
-                async t => {
-                    const users = await fetch("https://console-pro.ding.zj.gov.cn/rpc/gov/acl/pageAllGrant.json?_api=nattyFetch&_mock=false&pageSize=10&currentPage=1&elementId=&elementStatus=&elementType=ROLE&target=&targetType=USER&p_csrf=a211d9a4-6d2d-4f61-90f0-aee878c7b4f1&pageNo=1&codeType=ORGANIZATION&codeValues%5B%5D=" + t.code + "&_stamp=1615769021819").then(response => response.json()).then(data => data.content.data);
-                    console.log(users);
-                    return users;
-                }
+if (typeof allNodes !== 'undefined') {
+    var tmpAllNodes = [...allNodes];
+    var manager_result = []
+    while (tmpAllNodes.length) {
+        // 50 at at time
+        console.log("node size", tmpAllNodes.length);
+        const batch = (
+            await Promise.all(
+                tmpAllNodes.splice(0, 50).map(
+                    async t => {
+                        const users = await fetch("https://console-pro.ding.zj.gov.cn/rpc/gov/acl/pageAllGrant.json?_api=nattyFetch&_mock=false&pageSize=10&currentPage=1&elementId=&elementStatus=&elementType=ROLE&target=&targetType=USER&p_csrf=a211d9a4-6d2d-4f61-90f0-aee878c7b4f1&pageNo=1&codeType=ORGANIZATION&codeValues%5B%5D=" + t.code + "&_stamp=1615769021819").then(response => response.json()).then(data => data.content.data);
+                        console.log(users);
+                        return users;
+                    }
+                )
             )
-        )
-    ).flatMap(i => i);
-    manager_result.push(...batch)
+        ).flatMap(i => i);
+        manager_result.push(...batch)
+    }
 }
 
 manager_result.map(u => u.grantObjectName)
