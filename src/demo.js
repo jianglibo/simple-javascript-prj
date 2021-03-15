@@ -35,12 +35,13 @@ while(remainNodes.length > 0) {
         if (cur.leaf === "Y") {
             ra.leaf = [...ra.leaf, cur.code];
         } else {
+            allNodes.push(cur);
             ra.node = [...ra.node, cur.code];
         }
         return ra;
     }, { "leaf": [], "node": [] });
     remainNodes = br.node;
-    allNodes.push(...br.node);
+    // allNodes.push(...br.node);
     console.log("remainNodes: %s", remainNodes.length);
     allLeaf.push(...br.leaf);
 }
@@ -75,7 +76,7 @@ while (tmpAllNodes.length) {
         await Promise.all(
             tmpAllNodes.splice(0, 50).map(
                 async t => {
-                    const users = await fetch("https://console-pro.ding.zj.gov.cn/rpc/gov/acl/pageAllGrant.json?_api=nattyFetch&_mock=false&pageSize=10&currentPage=1&elementId=&elementStatus=&elementType=ROLE&target=&targetType=USER&p_csrf=a211d9a4-6d2d-4f61-90f0-aee878c7b4f1&pageNo=1&codeType=ORGANIZATION&codeValues%5B%5D=" + t +  "&_stamp=1615769021819").then(response => response.json()).then(data => data.content.data);
+                    const users = await fetch("https://console-pro.ding.zj.gov.cn/rpc/gov/acl/pageAllGrant.json?_api=nattyFetch&_mock=false&pageSize=10&currentPage=1&elementId=&elementStatus=&elementType=ROLE&target=&targetType=USER&p_csrf=a211d9a4-6d2d-4f61-90f0-aee878c7b4f1&pageNo=1&codeType=ORGANIZATION&codeValues%5B%5D=" + t.code +  "&_stamp=1615769021819").then(response => response.json()).then(data => data.content.data);
                     console.log(users);
                     return users;
                 }
